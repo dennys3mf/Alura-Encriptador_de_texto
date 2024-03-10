@@ -32,3 +32,16 @@ body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+@media (min-width: 768px) {
+
+    .wrapper {
+        max-width: 768px;
+        margin: 0 auto;
+        background-color: #356ea9;
+    }
+    aside {
+        display: none;
+    }
+
+}

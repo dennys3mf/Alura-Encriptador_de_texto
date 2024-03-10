@@ -4,11 +4,11 @@
 .wrapper {
     position: relative;
     background: var(--light-blue-100);
-    width: 75%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
-#logo {
+.logo {
     width: 120px;
     height: 48px;
     margin: 2.5rem 80rem 58.5rem 2.5rem;
@@ -84,12 +84,19 @@
     line-height: 19.36px;
     text-align: center;
     border: 1px solid var(--dark-blue-300);
-
+    cursor: pointer;
 }
+
+
 
 #frame-3 #boton-1 {
     background-color: #0A3871;
     color: #FFFFFF;
+}
+#frame-3 #boton-1:hover {
+    background-color: var(--light-blue-200);
+    color: #0A3871;
+    transition-duration: 345ms;
 }
 
 #frame-3 #boton-2 {
@@ -97,6 +104,11 @@
     color: #0A3871;
 }
 
+#frame-3 #boton-2:hover {
+    background-color: var(--dark-blue-300);
+    color: #ffffff;
+    transition-duration: 345ms;
+}
 
 .textoEncriptado {
     width: 336px;
@@ -179,3 +191,4 @@
     text-align: center;
     color: var(--gray-400);
 }
+
